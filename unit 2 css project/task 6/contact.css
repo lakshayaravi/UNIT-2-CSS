@@ -1,0 +1,128 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f8ff; /* light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff6f61; /* coral */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6f61;
+}
+
+/* Horizontal line */
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Main Section Styling */
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Form Styling */
+.feedback-form fieldset {
+    border: 2px solid #4db6ac;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.feedback-form legend {
+    font-weight: bold;
+    color: #4db6ac;
+    font-size: 1.1em;
+}
+
+/* Labels and Inputs */
+.feedback-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Checkboxes inline */
+.feedback-form input[type="checkbox"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* Submit Buttons */
+.feedback-form input[type="submit"],
+.feedback-form input[type="reset"] {
+    background-color: #4db6ac; /* teal */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.feedback-form input[type="submit"]:hover,
+.feedback-form input[type="reset"]:hover {
+    background-color: #009688; /* dark teal */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

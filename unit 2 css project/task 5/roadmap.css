@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #6a1b9a; /* Purple header */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #6a1b9a;
+}
+
+/* Horizontal line */
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Main Section Styling */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+section h2 {
+    color: #6a1b9a;
+    border-bottom: 2px solid #6a1b9a;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Roadmap Phases */
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.phase {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Unique colors for each phase */
+.phase1 { border-color: #ff6f61; } /* red */
+.phase2 { border-color: #ffb74d; } /* orange */
+.phase3 { border-color: #4db6ac; } /* teal */
+.phase4 { border-color: #9575cd; } /* purple */
+
+/* Details summary styling */
+details summary {
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+/* Notes Section */
+.notes {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e1f5fe; /* light blue */
+    border-left: 6px solid #0288d1;
+    border-radius: 6px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

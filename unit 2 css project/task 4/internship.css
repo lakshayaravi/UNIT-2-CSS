@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff8c00;
+}
+
+/* Horizontal line */
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Main Section Styling */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+section h2 {
+    color: #ff8c00;
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Internship Table Styling */
+.internship-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.internship-table caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.internship-table th,
+.internship-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Table Header Styling */
+.internship-table th {
+    background-color: #ffcc80;
+    color: #333;
+}
+
+/* Table Row Colors */
+.internship-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.internship-table tr.completed {
+    background-color: #c8e6c9; /* Green for completed */
+}
+
+.internship-table tr.ongoing {
+    background-color: #fff9c4; /* Yellow for ongoing */
+}
+
+/* Internship Summary List */
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

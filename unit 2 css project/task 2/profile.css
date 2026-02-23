@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #3f51b5; /* Indigo */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3f51b5;
+}
+
+/* Horizontal line */
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Main Section */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Form Fieldsets */
+.profile-form fieldset {
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Unique colors for each section */
+.photo-section { border-color: #ff6f61; }
+.personal-section { border-color: #4db6ac; }
+.academic-section { border-color: #ffb74d; }
+.career-section { border-color: #9575cd; }
+.submit-section { border-color: #26a69a; }
+
+.profile-form legend {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Labels and Inputs */
+.profile-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="date"],
+.profile-form input[type="number"],
+.profile-form select,
+.profile-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Radio Buttons Inline */
+.profile-form input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* Submit Buttons */
+.profile-form input[type="submit"],
+.profile-form input[type="reset"] {
+    background-color: #3f51b5; /* Indigo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.profile-form input[type="submit"]:hover,
+.profile-form input[type="reset"]:hover {
+    background-color: #303f9f; /* Dark Indigo */
+}
+
+/* Profile Picture */
+.photo-container {
+    text-align: center;
+}
+
+.photo-container img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff6f61;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
